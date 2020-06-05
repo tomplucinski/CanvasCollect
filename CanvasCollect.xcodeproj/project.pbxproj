@@ -10,8 +10,14 @@
 		7CE66E0F248AABBF00814FA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE66E0E248AABBF00814FA5 /* AppDelegate.swift */; };
 		7CE66E11248AABBF00814FA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE66E10248AABBF00814FA5 /* ViewController.swift */; };
 		7CE66E14248AABBF00814FA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE66E12248AABBF00814FA5 /* Main.storyboard */; };
-		7CE66E16248AABC100814FA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE66E15248AABC100814FA5 /* Assets.xcassets */; };
 		7CE66E19248AABC100814FA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE66E17248AABC100814FA5 /* LaunchScreen.storyboard */; };
+		7CE66E27248AABF700814FA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE66E26248AABF700814FA5 /* AppDelegate.swift */; };
+		7CE66E29248AABF700814FA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE66E28248AABF700814FA5 /* ViewController.swift */; };
+		7CE66E2C248AABF700814FA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE66E2A248AABF700814FA5 /* Main.storyboard */; };
+		7CE66E2E248AABF800814FA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE66E2D248AABF800814FA5 /* Assets.xcassets */; };
+		7CE66E31248AABF800814FA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE66E2F248AABF800814FA5 /* LaunchScreen.storyboard */; };
+		7CE66E37248AAC2F00814FA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE66E2D248AABF800814FA5 /* Assets.xcassets */; };
+		7CE66E39248AAC4E00814FA5 /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE66E38248AAC4E00814FA5 /* LoginStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,13 +25,27 @@
 		7CE66E0E248AABBF00814FA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CE66E10248AABBF00814FA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7CE66E13248AABBF00814FA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7CE66E15248AABC100814FA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CE66E18248AABC100814FA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CE66E1A248AABC100814FA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CE66E24248AABF700814FA5 /* CanvasCollectAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanvasCollectAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CE66E26248AABF700814FA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CE66E28248AABF700814FA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CE66E2B248AABF700814FA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CE66E2D248AABF800814FA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CE66E30248AABF800814FA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CE66E32248AABF800814FA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CE66E38248AAC4E00814FA5 /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7CE66E08248AABBF00814FA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CE66E21248AABF700814FA5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,7 +58,9 @@
 		7CE66E02248AABBF00814FA5 = {
 			isa = PBXGroup;
 			children = (
+				7CE66E36248AAC0D00814FA5 /* Shared */,
 				7CE66E0D248AABBF00814FA5 /* CanvasCollect */,
+				7CE66E25248AABF700814FA5 /* CanvasCollectAdmin */,
 				7CE66E0C248AABBF00814FA5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				7CE66E0B248AABBF00814FA5 /* CanvasCollect.app */,
+				7CE66E24248AABF700814FA5 /* CanvasCollectAdmin.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,12 +79,32 @@
 			children = (
 				7CE66E0E248AABBF00814FA5 /* AppDelegate.swift */,
 				7CE66E10248AABBF00814FA5 /* ViewController.swift */,
+				7CE66E38248AAC4E00814FA5 /* LoginStoryboard.storyboard */,
 				7CE66E12248AABBF00814FA5 /* Main.storyboard */,
-				7CE66E15248AABC100814FA5 /* Assets.xcassets */,
 				7CE66E17248AABC100814FA5 /* LaunchScreen.storyboard */,
 				7CE66E1A248AABC100814FA5 /* Info.plist */,
 			);
 			path = CanvasCollect;
+			sourceTree = "<group>";
+		};
+		7CE66E25248AABF700814FA5 /* CanvasCollectAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				7CE66E26248AABF700814FA5 /* AppDelegate.swift */,
+				7CE66E28248AABF700814FA5 /* ViewController.swift */,
+				7CE66E2A248AABF700814FA5 /* Main.storyboard */,
+				7CE66E2F248AABF800814FA5 /* LaunchScreen.storyboard */,
+				7CE66E32248AABF800814FA5 /* Info.plist */,
+			);
+			path = CanvasCollectAdmin;
+			sourceTree = "<group>";
+		};
+		7CE66E36248AAC0D00814FA5 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				7CE66E2D248AABF800814FA5 /* Assets.xcassets */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +127,23 @@
 			productReference = 7CE66E0B248AABBF00814FA5 /* CanvasCollect.app */;
 			productType = "com.apple.product-type.application";
 		};
+		7CE66E23248AABF700814FA5 /* CanvasCollectAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CE66E33248AABF800814FA5 /* Build configuration list for PBXNativeTarget "CanvasCollectAdmin" */;
+			buildPhases = (
+				7CE66E20248AABF700814FA5 /* Sources */,
+				7CE66E21248AABF700814FA5 /* Frameworks */,
+				7CE66E22248AABF700814FA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CanvasCollectAdmin;
+			productName = CanvasCollectAdmin;
+			productReference = 7CE66E24248AABF700814FA5 /* CanvasCollectAdmin.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -95,6 +155,9 @@
 				ORGANIZATIONNAME = "Tom Plucinski";
 				TargetAttributes = {
 					7CE66E0A248AABBF00814FA5 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					7CE66E23248AABF700814FA5 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
@@ -113,6 +176,7 @@
 			projectRoot = "";
 			targets = (
 				7CE66E0A248AABBF00814FA5 /* CanvasCollect */,
+				7CE66E23248AABF700814FA5 /* CanvasCollectAdmin */,
 			);
 		};
 /* End PBXProject section */
@@ -123,8 +187,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CE66E19248AABC100814FA5 /* LaunchScreen.storyboard in Resources */,
-				7CE66E16248AABC100814FA5 /* Assets.xcassets in Resources */,
+				7CE66E37248AAC2F00814FA5 /* Assets.xcassets in Resources */,
 				7CE66E14248AABBF00814FA5 /* Main.storyboard in Resources */,
+				7CE66E39248AAC4E00814FA5 /* LoginStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CE66E22248AABF700814FA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CE66E31248AABF800814FA5 /* LaunchScreen.storyboard in Resources */,
+				7CE66E2E248AABF800814FA5 /* Assets.xcassets in Resources */,
+				7CE66E2C248AABF700814FA5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +212,15 @@
 			files = (
 				7CE66E11248AABBF00814FA5 /* ViewController.swift in Sources */,
 				7CE66E0F248AABBF00814FA5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CE66E20248AABF700814FA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CE66E29248AABF700814FA5 /* ViewController.swift in Sources */,
+				7CE66E27248AABF700814FA5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +239,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				7CE66E18248AABC100814FA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7CE66E2A248AABF700814FA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CE66E2B248AABF700814FA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CE66E2F248AABF800814FA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CE66E30248AABF800814FA5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -312,6 +412,40 @@
 			};
 			name = Release;
 		};
+		7CE66E34248AABF800814FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CanvasCollectAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomplucinski.CanvasCollectAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CE66E35248AABF800814FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CanvasCollectAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomplucinski.CanvasCollectAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -329,6 +463,15 @@
 			buildConfigurations = (
 				7CE66E1E248AABC100814FA5 /* Debug */,
 				7CE66E1F248AABC100814FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CE66E33248AABF800814FA5 /* Build configuration list for PBXNativeTarget "CanvasCollectAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CE66E34248AABF800814FA5 /* Debug */,
+				7CE66E35248AABF800814FA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
