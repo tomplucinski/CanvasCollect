@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10F4B0F52881C45EF9695E08 /* Pods_CanvasCollectAdmin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3DB3A3E3DA114F443BA3AC /* Pods_CanvasCollectAdmin.framework */; };
+		50A175ECAF3D3CCD0D225680 /* Pods_CanvasCollect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A86B62CB1CFD6D1FF4EB4968 /* Pods_CanvasCollect.framework */; };
+		7CC6271B248AE121009641FF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CC6271A248AE120009641FF /* GoogleService-Info.plist */; };
 		7CE66E0F248AABBF00814FA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE66E0E248AABBF00814FA5 /* AppDelegate.swift */; };
 		7CE66E11248AABBF00814FA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE66E10248AABBF00814FA5 /* ViewController.swift */; };
 		7CE66E14248AABBF00814FA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE66E12248AABBF00814FA5 /* Main.storyboard */; };
@@ -18,9 +21,14 @@
 		7CE66E31248AABF800814FA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE66E2F248AABF800814FA5 /* LaunchScreen.storyboard */; };
 		7CE66E37248AAC2F00814FA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE66E2D248AABF800814FA5 /* Assets.xcassets */; };
 		7CE66E39248AAC4E00814FA5 /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE66E38248AAC4E00814FA5 /* LoginStoryboard.storyboard */; };
+		7CF1EEAE248AE75800F49B4C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CF1EEAD248AE75800F49B4C /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E2D5CA59500E844FB6FA7E3 /* Pods-CanvasCollect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanvasCollect.release.xcconfig"; path = "Pods/Target Support Files/Pods-CanvasCollect/Pods-CanvasCollect.release.xcconfig"; sourceTree = "<group>"; };
+		5FD29B9D84307EE644D01464 /* Pods-CanvasCollectAdmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanvasCollectAdmin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CanvasCollectAdmin/Pods-CanvasCollectAdmin.debug.xcconfig"; sourceTree = "<group>"; };
+		6E3DB3A3E3DA114F443BA3AC /* Pods_CanvasCollectAdmin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CanvasCollectAdmin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC6271A248AE120009641FF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7CE66E0B248AABBF00814FA5 /* CanvasCollect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanvasCollect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CE66E0E248AABBF00814FA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CE66E10248AABBF00814FA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +43,10 @@
 		7CE66E30248AABF800814FA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CE66E32248AABF800814FA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CE66E38248AAC4E00814FA5 /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
+		7CF1EEAD248AE75800F49B4C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A86B62CB1CFD6D1FF4EB4968 /* Pods_CanvasCollect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CanvasCollect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D68C8AC1CECF23FE6E5B0BF8 /* Pods-CanvasCollect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanvasCollect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CanvasCollect/Pods-CanvasCollect.debug.xcconfig"; sourceTree = "<group>"; };
+		F6021F3AA2632A84FBAE936B /* Pods-CanvasCollectAdmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanvasCollectAdmin.release.xcconfig"; path = "Pods/Target Support Files/Pods-CanvasCollectAdmin/Pods-CanvasCollectAdmin.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50A175ECAF3D3CCD0D225680 /* Pods_CanvasCollect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,12 +62,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10F4B0F52881C45EF9695E08 /* Pods_CanvasCollectAdmin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B5C3F21C617E9030AC33F81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A86B62CB1CFD6D1FF4EB4968 /* Pods_CanvasCollect.framework */,
+				6E3DB3A3E3DA114F443BA3AC /* Pods_CanvasCollectAdmin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7CE66E02248AABBF00814FA5 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +85,8 @@
 				7CE66E0D248AABBF00814FA5 /* CanvasCollect */,
 				7CE66E25248AABF700814FA5 /* CanvasCollectAdmin */,
 				7CE66E0C248AABBF00814FA5 /* Products */,
+				8DDF822353906325899A0D7E /* Pods */,
+				1B5C3F21C617E9030AC33F81 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +107,7 @@
 				7CE66E38248AAC4E00814FA5 /* LoginStoryboard.storyboard */,
 				7CE66E12248AABBF00814FA5 /* Main.storyboard */,
 				7CE66E17248AABC100814FA5 /* LaunchScreen.storyboard */,
+				7CC6271A248AE120009641FF /* GoogleService-Info.plist */,
 				7CE66E1A248AABC100814FA5 /* Info.plist */,
 			);
 			path = CanvasCollect;
@@ -94,6 +120,7 @@
 				7CE66E28248AABF700814FA5 /* ViewController.swift */,
 				7CE66E2A248AABF700814FA5 /* Main.storyboard */,
 				7CE66E2F248AABF800814FA5 /* LaunchScreen.storyboard */,
+				7CF1EEAD248AE75800F49B4C /* GoogleService-Info.plist */,
 				7CE66E32248AABF800814FA5 /* Info.plist */,
 			);
 			path = CanvasCollectAdmin;
@@ -107,6 +134,17 @@
 			path = Shared;
 			sourceTree = "<group>";
 		};
+		8DDF822353906325899A0D7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D68C8AC1CECF23FE6E5B0BF8 /* Pods-CanvasCollect.debug.xcconfig */,
+				4E2D5CA59500E844FB6FA7E3 /* Pods-CanvasCollect.release.xcconfig */,
+				5FD29B9D84307EE644D01464 /* Pods-CanvasCollectAdmin.debug.xcconfig */,
+				F6021F3AA2632A84FBAE936B /* Pods-CanvasCollectAdmin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -114,9 +152,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7CE66E1D248AABC100814FA5 /* Build configuration list for PBXNativeTarget "CanvasCollect" */;
 			buildPhases = (
+				5F53CDE0BB1B590A942BB06D /* [CP] Check Pods Manifest.lock */,
 				7CE66E07248AABBF00814FA5 /* Sources */,
 				7CE66E08248AABBF00814FA5 /* Frameworks */,
 				7CE66E09248AABBF00814FA5 /* Resources */,
+				914658C1F77300445D9649FD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,9 +171,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7CE66E33248AABF800814FA5 /* Build configuration list for PBXNativeTarget "CanvasCollectAdmin" */;
 			buildPhases = (
+				29BE512938B5A96680AA03F8 /* [CP] Check Pods Manifest.lock */,
 				7CE66E20248AABF700814FA5 /* Sources */,
 				7CE66E21248AABF700814FA5 /* Frameworks */,
 				7CE66E22248AABF700814FA5 /* Resources */,
+				92B3DCADE364D1DB19A97A94 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -188,6 +230,7 @@
 			files = (
 				7CE66E19248AABC100814FA5 /* LaunchScreen.storyboard in Resources */,
 				7CE66E37248AAC2F00814FA5 /* Assets.xcassets in Resources */,
+				7CC6271B248AE121009641FF /* GoogleService-Info.plist in Resources */,
 				7CE66E14248AABBF00814FA5 /* Main.storyboard in Resources */,
 				7CE66E39248AAC4E00814FA5 /* LoginStoryboard.storyboard in Resources */,
 			);
@@ -200,10 +243,128 @@
 				7CE66E31248AABF800814FA5 /* LaunchScreen.storyboard in Resources */,
 				7CE66E2E248AABF800814FA5 /* Assets.xcassets in Resources */,
 				7CE66E2C248AABF700814FA5 /* Main.storyboard in Resources */,
+				7CF1EEAE248AE75800F49B4C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29BE512938B5A96680AA03F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CanvasCollectAdmin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F53CDE0BB1B590A942BB06D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CanvasCollect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		914658C1F77300445D9649FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CanvasCollect/Pods-CanvasCollect-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stripe.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CanvasCollect/Pods-CanvasCollect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92B3DCADE364D1DB19A97A94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CanvasCollectAdmin/Pods-CanvasCollectAdmin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CanvasCollectAdmin/Pods-CanvasCollectAdmin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7CE66E07248AABBF00814FA5 /* Sources */ = {
@@ -380,6 +541,7 @@
 		};
 		7CE66E1E248AABC100814FA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D68C8AC1CECF23FE6E5B0BF8 /* Pods-CanvasCollect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -397,6 +559,7 @@
 		};
 		7CE66E1F248AABC100814FA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E2D5CA59500E844FB6FA7E3 /* Pods-CanvasCollect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -414,6 +577,7 @@
 		};
 		7CE66E34248AABF800814FA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FD29B9D84307EE644D01464 /* Pods-CanvasCollectAdmin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -431,6 +595,7 @@
 		};
 		7CE66E35248AABF800814FA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6021F3AA2632A84FBAE936B /* Pods-CanvasCollectAdmin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

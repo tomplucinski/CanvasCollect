@@ -1,0 +1,6 @@
+framework module Pods_CanvasCollectAdmin {
+  umbrella header "Pods-CanvasCollectAdmin-umbrella.h"
+
+  export *
+  module * { export * }
+}
