@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_left1" translatesAutoresizingMaskIntoConstraints="NO" id="Ysh-sD-s87">
-                                <rect key="frame" x="0.0" y="88" width="375" height="724"/>
+                                <rect key="frame" x="0.0" y="88" width="375.00000000000045" height="724"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="Qdy-gy-LXS">
                                 <rect key="frame" x="20" y="107.99999999999997" width="335" height="325.33333333333326"/>
@@ -55,7 +55,7 @@
                                             <color key="titleColor" red="0.83529411764705885" green="0.39215686274509803" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7N9-oT-QQJ">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7N9-oT-QQJ" customClass="RoundedButton" customModule="CanvasCollect" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="181.33333333333331" width="335" height="40"/>
                                         <color key="backgroundColor" red="0.2274509804" green="0.2666666667" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -66,7 +66,7 @@
                                             <color key="titleColor" red="0.95294117647058818" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3xu-so-c6t">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3xu-so-c6t" customClass="RoundedButton" customModule="CanvasCollect" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="233.33333333333331" width="335" height="40"/>
                                         <color key="backgroundColor" red="0.83529411764705885" green="0.39215686274509803" blue="0.31372549019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -80,7 +80,7 @@
                                             <segue destination="GuQ-Tw-yNb" kind="show" id="kSc-a7-5ro"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Hc-6v-ecF">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Hc-6v-ecF" customClass="RoundedButton" customModule="CanvasCollect" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="285.33333333333331" width="335" height="40"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -103,7 +103,6 @@
                             <constraint firstItem="Qdy-gy-LXS" firstAttribute="leading" secondItem="ifE-Go-4JF" secondAttribute="leading" constant="20" id="BJx-JF-c9O"/>
                             <constraint firstItem="Ysh-sD-s87" firstAttribute="trailing" secondItem="ifE-Go-4JF" secondAttribute="trailing" id="Bru-eC-P4O"/>
                             <constraint firstItem="Ysh-sD-s87" firstAttribute="top" secondItem="ifE-Go-4JF" secondAttribute="top" id="JG3-ky-6SU"/>
-                            <constraint firstAttribute="bottom" secondItem="Ysh-sD-s87" secondAttribute="bottom" constant="70" id="LcR-Qe-3ab"/>
                             <constraint firstAttribute="bottom" secondItem="Ysh-sD-s87" secondAttribute="bottom" id="PQo-Fx-LHJ"/>
                             <constraint firstItem="Qdy-gy-LXS" firstAttribute="top" secondItem="ifE-Go-4JF" secondAttribute="top" constant="20" id="RTG-94-U20"/>
                             <constraint firstItem="ifE-Go-4JF" firstAttribute="trailing" secondItem="Qdy-gy-LXS" secondAttribute="trailing" constant="20" id="TLU-gR-ram"/>
@@ -175,7 +174,7 @@
                                         <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yYG-Ta-AYP">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yYG-Ta-AYP" customClass="RoundedButton" customModule="CanvasCollect" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="240.33333333333331" width="335" height="40"/>
                                         <color key="backgroundColor" red="0.2274509804" green="0.2666666667" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>

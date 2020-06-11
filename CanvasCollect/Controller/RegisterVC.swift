@@ -22,38 +22,22 @@ class RegisterVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        passwordText.addTarget(self, action: #selector(textFieldDidChange(_:)), for: UIControl.Event.editingChanged)
-        
-        confirmPassText.addTarget(self, action: #selector(textFieldDidChange(_:)), for: UIControl.Event.editingChanged)
-    }
-    
-    @objc func textFieldDidChange(_ textField: UITextField) {
-        
-        print("typed here")
-        
-//        if passwordText.text == confirmPassText.text {
-//            passCheckImg.image = UIImage(named: "green_check")
-//            confirmPassCheckImg.image = UIImage(named: "green_check")
-//        } else {
-//            passCheckImg.image = UIImage(named: "red_check")
-//            confirmPassCheckImg.image = UIImage(named: "red_check")
-//        }
     }
     
     @IBAction func registerClicked(_ sender: Any) {
         guard let email = emailText.text, email.isNotEmpty,
             let username = usernameText.text, username.isNotEmpty,
             let password = passwordText.text, password.isNotEmpty else { return }
-        
+
         activityIndicator.startAnimating()
-        
+
         Auth.auth().createUser(withEmail: email, password: password) { (authResult, error) in
-            
+
             if let error = error {
                 debugPrint(error)
                 return
             }
-            
+
             self.activityIndicator.stopAnimating()
             print("successfully registered new user.")
         }
