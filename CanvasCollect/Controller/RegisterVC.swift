@@ -12,26 +12,40 @@ import Firebase
 class RegisterVC: UIViewController {
     
     @IBOutlet weak var usernameText: UITextField!
-    
     @IBOutlet weak var emailText: UITextField!
-    
     @IBOutlet weak var passwordText: UITextField!
-    
-    @IBOutlet weak var confirmPassText: NSLayoutConstraint!
-    
+    @IBOutlet weak var confirmPassText: UITextField!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
-    
+    @IBOutlet weak var passCheckImg: UIImageView!
+    @IBOutlet weak var confirmPassCheckImg: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        passwordText.addTarget(self, action: #selector(textFieldDidChange(_:)), for: UIControl.Event.editingChanged)
+        
+        confirmPassText.addTarget(self, action: #selector(textFieldDidChange(_:)), for: UIControl.Event.editingChanged)
+    }
+    
+    @objc func textFieldDidChange(_ textField: UITextField) {
+        
+        print("typed here")
+        
+//        if passwordText.text == confirmPassText.text {
+//            passCheckImg.image = UIImage(named: "green_check")
+//            confirmPassCheckImg.image = UIImage(named: "green_check")
+//        } else {
+//            passCheckImg.image = UIImage(named: "red_check")
+//            confirmPassCheckImg.image = UIImage(named: "red_check")
+//        }
     }
     
     @IBAction func registerClicked(_ sender: Any) {
-        guard let email = emailText.text, !email.isEmpty,
-            let username = usernameText.text, !username.isEmpty,
-            let password = passwordText.text, !password.isEmpty else { return }
+        guard let email = emailText.text, email.isNotEmpty,
+            let username = usernameText.text, username.isNotEmpty,
+            let password = passwordText.text, password.isNotEmpty else { return }
+        
+        activityIndicator.startAnimating()
         
         Auth.auth().createUser(withEmail: email, password: password) { (authResult, error) in
             
@@ -40,6 +54,7 @@ class RegisterVC: UIViewController {
                 return
             }
             
+            self.activityIndicator.stopAnimating()
             print("successfully registered new user.")
         }
     }

@@ -230,8 +230,10 @@
                     </view>
                     <connections>
                         <outlet property="activityIndicator" destination="sOg-Od-u8Y" id="xv6-MC-J3W"/>
+                        <outlet property="confirmPassCheckImg" destination="k0K-9v-22r" id="kkF-kp-VAZ"/>
                         <outlet property="confirmPassText" destination="MMe-UA-rMm" id="H3U-dR-yGY"/>
                         <outlet property="emailText" destination="q9m-87-cFF" id="F9E-rK-SyU"/>
+                        <outlet property="passCheckImg" destination="vua-Ny-DYZ" id="1Io-ZF-up5"/>
                         <outlet property="passwordText" destination="CD5-z9-b94" id="q4h-hZ-U98"/>
                         <outlet property="usernameText" destination="9ji-nz-GsC" id="vxS-hT-QDy"/>
                     </connections>
